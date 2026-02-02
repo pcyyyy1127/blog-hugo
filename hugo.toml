@@ -1,0 +1,54 @@
+baseURL = "https://your-domain.com/"
+languageCode = "zh-CN"
+title = "前端开发者个人网站"
+theme = "stack"
+
+[params]
+description = "记录前端开发学习与实践"
+author = "前端开发者"
+avatar = ""
+social = [
+  { name = "GitHub", icon = "github", url = "https://github.com/your-username" },
+  { name = "Twitter", icon = "twitter", url = "https://twitter.com/your-username" },
+  { name = "LinkedIn", icon = "linkedin", url = "https://linkedin.com/in/your-username" }
+]
+
+[menu]
+[[menu.main]]
+identifier = "home"
+name = "首页"
+url = "/"
+weight = 1
+
+[[menu.main]]
+identifier = "archives"
+name = "归档"
+url = "/archives/"
+weight = 2
+
+[[menu.main]]
+identifier = "categories"
+name = "分类"
+url = "/categories/"
+weight = 3
+
+[[menu.main]]
+identifier = "tags"
+name = "标签"
+url = "/tags/"
+weight = 4
+
+[params.featuredImage]
+enable = true
+quality = 80
+
+[params.article]
+defaultLicense = "CC BY-NC-SA 4.0"
+showToc = true
+showDate = true
+showReadTime = true
+showAuthor = true
+showViews = true
+
+[params.footer]
+customText = "© 2024 前端开发者个人网站"

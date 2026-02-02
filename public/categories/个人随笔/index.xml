@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>个人随笔 on 前端开发者个人网站</title>
+        <link>https://your-domain.com/categories/%E4%B8%AA%E4%BA%BA%E9%9A%8F%E7%AC%94/</link>
+        <description>Recent content in 个人随笔 on 前端开发者个人网站</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-CN</language>
+        <lastBuildDate>Mon, 01 Jan 2024 10:00:00 +0800</lastBuildDate><atom:link href="https://your-domain.com/categories/%E4%B8%AA%E4%BA%BA%E9%9A%8F%E7%AC%94/index.xml" rel="self" type="application/rss+xml" /><item>
+            <title>欢迎来到我的个人网站</title>
+            <link>https://your-domain.com/posts/first-post/</link>
+            <pubDate>Mon, 01 Jan 2024 10:00:00 +0800</pubDate>
+            <guid>https://your-domain.com/posts/first-post/</guid>
+            <description>&lt;h1 id=&#34;欢迎来到我的个人网站&#34;&gt;欢迎来到我的个人网站&#xA;&lt;/h1&gt;&lt;p&gt;这是我使用Hugo + Stack主题搭建的个人网站的第一篇文章。&lt;/p&gt;&#xA;&lt;h2 id=&#34;关于这个网站&#34;&gt;关于这个网站&#xA;&lt;/h2&gt;&lt;p&gt;这个网站主要用于记录我的前端开发学习与实践经验，包括：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;前端技术分享&lt;/li&gt;&#xA;&lt;li&gt;项目实战经验&lt;/li&gt;&#xA;&lt;li&gt;学习笔记&lt;/li&gt;&#xA;&lt;li&gt;行业动态&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;技术栈&#34;&gt;技术栈&#xA;&lt;/h2&gt;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;框架&lt;/strong&gt;：Hugo (静态网站生成器)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;主题&lt;/strong&gt;：Stack&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;部署&lt;/strong&gt;：GitHub Pages / Netlify&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;未来计划&#34;&gt;未来计划&#xA;&lt;/h2&gt;&lt;ol&gt;&#xA;&lt;li&gt;完善网站结构和内容&lt;/li&gt;&#xA;&lt;li&gt;添加更多技术文章&lt;/li&gt;&#xA;&lt;li&gt;集成评论系统&lt;/li&gt;&#xA;&lt;li&gt;优化网站性能&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;感谢您的访问！&lt;/p&gt;&#xA;</description>
+        </item></channel>
+</rss>
