@@ -1,10 +1,11 @@
 baseURL = "https://your-domain.com/"
 languageCode = "zh-CN"
-title = "前端开发者个人网站"
+title = "XiNing-tech"
 theme = "hugo-narrow"
 
 [params]
-description = "记录前端开发学习与实践"
+description = "XiNing-tech 的技术与随笔"
+defaultAuthor = "XiNing-tech"
 
 # 主题配色与头部控件（与主题示例一致，才能出现调色板、暗色模式等效果）
 colorScheme = "Amethyst"
@@ -17,7 +18,7 @@ showLanguageSwitch = true
 languageSwitchMode = "dropdown"
 
 [params.header.logo]
-image = ""
+image = "/images/logo.png"
 link = "/"
 
 # 可选的主题风格列表（调色板下拉菜单用）
@@ -33,13 +34,13 @@ amethyst = { name = "Amethyst", order = 9 }
 slate = { name = "Slate", order = 10 }
 
 [params.author]
-name = "前端开发者"
+name = "XiNing-tech"
 avatar = ""
 
 [params.social]
-github = "https://github.com/your-username"
-twitter = "https://twitter.com/your-username"
-linkedin = "https://linkedin.com/in/your-username"
+github = "https://github.com/XiNing-tech"
+twitter = "https://twitter.com/XiNing_tech"
+linkedin = "https://linkedin.com/in/xining-tech"
 
 # 评论（Giscus：GitHub Discussions）
 [params.comments]
