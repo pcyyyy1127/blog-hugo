@@ -1,3 +1,14 @@
+{{- /* 暗色模式下左上角 Logo 白底，便于辨识 */ -}}
+<style>
+  .dark .header-logo-link {
+    background-color: #f4f6f9;
+    padding: 2px;
+  }
+  .dark .header-logo-link img {
+    border-radius: 9999px;
+  }
+</style>
+
 {{- /* 不蒜子：文章页显示阅读量 */ -}}
 {{- if .IsPage -}}
 <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>

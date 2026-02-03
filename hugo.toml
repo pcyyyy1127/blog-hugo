@@ -35,10 +35,27 @@ slate = { name = "Slate", order = 10 }
 
 [params.author]
 name = "XiNing-tech"
-avatar = ""
+avatar = "/images/logo.png"
+title = "前端开发者"
+description = "前端开发者，熟悉 Vue、React、React Native、UniApp、TypeScript 等技术栈，分享前端技术与实践。"
+
+[[params.author.social]]
+name = "GitHub"
+url = "https://github.com/pcyyyy1127"
+icon = "github"
+
+[[params.author.social]]
+name = "掘金"
+url = "https://juejin.cn/user/3507861093628140"
+icon = "external-link"
+
+[[params.author.social]]
+name = "CSDN"
+url = "https://blog.csdn.net/ParkChanyelo"
+icon = "external-link"
 
 [params.social]
-github = "https://github.com/XiNing-tech"
+github = "https://github.com/pcyyyy1127"
 twitter = "https://twitter.com/XiNing_tech"
 linkedin = "https://linkedin.com/in/xining-tech"
 
@@ -65,13 +82,6 @@ issueTerm = "pathname"
 label = "comment"
 theme = "preferred-color-scheme"
 
-# 浏览量统计（选一种填好并设 enabled = true）
-[params.analytics]
-enabled = true
-# Google Analytics 4：免费，需去 https://analytics.google.com 建站并拿到测量 ID
-[params.analytics.google]
-enabled = true
-id = "G-8FZPPHSBHR"
 
 [menu]
 [[menu.main]]
@@ -97,3 +107,22 @@ identifier = "tags"
 name = "标签"
 url = "/tags/"
 weight = 4
+
+# 底部社交图标（footer 显示，需用 menu.social 而非 params.social）
+[[menu.social]]
+name = "GitHub"
+url = "https://github.com/pcyyyy1127"
+weight = 10
+params = { icon = "github" }
+
+[[menu.social]]
+name = "掘金"
+url = "https://juejin.cn/user/3507861093628140"
+weight = 20
+params = { icon = "external-link" }
+
+[[menu.social]]
+name = "CSDN"
+url = "https://blog.csdn.net/ParkChanyelo"
+weight = 30
+params = { icon = "external-link" }
