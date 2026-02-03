@@ -6,6 +6,32 @@ theme = "hugo-narrow"
 [params]
 description = "记录前端开发学习与实践"
 
+# 主题配色与头部控件（与主题示例一致，才能出现调色板、暗色模式等效果）
+colorScheme = "Amethyst"
+
+[params.header]
+sticky = true
+showThemeSwitch = true
+showDarkModeSwitch = true
+showLanguageSwitch = true
+languageSwitchMode = "dropdown"
+
+[params.header.logo]
+image = ""
+link = "/"
+
+# 可选的主题风格列表（调色板下拉菜单用）
+[params.themes]
+default = { name = "Default", order = 1 }
+bumblebee = { name = "Bumblebee", order = 3 }
+emerald = { name = "Emerald", order = 4 }
+nord = { name = "Nord", order = 5 }
+sunset = { name = "Sunset", order = 6 }
+abyss = { name = "Abyss", order = 7 }
+dracula = { name = "Dracula", order = 8 }
+amethyst = { name = "Amethyst", order = 9 }
+slate = { name = "Slate", order = 10 }
+
 [params.author]
 name = "前端开发者"
 avatar = ""
