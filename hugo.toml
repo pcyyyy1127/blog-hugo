@@ -41,6 +41,37 @@ github = "https://github.com/your-username"
 twitter = "https://twitter.com/your-username"
 linkedin = "https://linkedin.com/in/your-username"
 
+# 评论（Giscus：GitHub Discussions）
+[params.comments]
+enabled = true
+system = "giscus"
+[params.comments.giscus]
+repo = "pcyyyy1127/blog-hugo"
+repoId = "R_kgDORGvhIw"
+category = "General"
+categoryId = "DIC_kwDORGvhI84C10lH"
+mapping = "pathname"
+strict = "0"
+reactionsEnabled = "1"
+emitMetadata = "0"
+inputPosition = "bottom"
+theme = "preferred_color_scheme"
+lang = "zh-CN"
+# Utterances：用 GitHub Issues，备选。repo 填 "用户名/仓库名" 即可
+[params.comments.utterances]
+repo = ""
+issueTerm = "pathname"
+label = "comment"
+theme = "preferred-color-scheme"
+
+# 浏览量统计（选一种填好并设 enabled = true）
+[params.analytics]
+enabled = true
+# Google Analytics 4：免费，需去 https://analytics.google.com 建站并拿到测量 ID
+[params.analytics.google]
+enabled = true
+id = "G-8FZPPHSBHR"
+
 [menu]
 [[menu.main]]
 identifier = "home"
