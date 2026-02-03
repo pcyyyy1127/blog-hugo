@@ -3,6 +3,9 @@ languageCode = "zh-CN"
 title = "XiNing-tech"
 theme = "hugo-narrow"
 
+# 归档页从这些 section 拉取文章（不设则可能为空）
+mainSections = ["posts"]
+
 [params]
 description = "XiNing-tech 的技术与随笔"
 defaultAuthor = "XiNing-tech"
