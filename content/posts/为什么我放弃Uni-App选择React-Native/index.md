@@ -10,6 +10,7 @@ tags:
 categories:
   - 技术分享
 summary: '从 Uni-App 转向 React Native 的原因与思考。'
+cover: '1770133968904.png'
 ---
 
 # 为什么我放弃 Uni-App 选择 React Native
