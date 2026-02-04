@@ -9,13 +9,9 @@ tags:
   - 前端
 categories:
   - 技术分享
-summary: '从 Uni-App 转向 React Native 的原因与思考。'
+summary: 'web 前端开发，入职第二天，领导让我准备开发 APP'
 cover: '1770133968904.png'
 ---
-
-# 为什么我放弃 Uni-App 选择 React Native
-
-web 前端开发，入职第二天，领导让我准备开发 APP
 
 # 一、2025 年初，跳槽了
 
